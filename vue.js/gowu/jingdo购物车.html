@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+         body{
+        margin: 0 auto;
+        width: 500px;
+    }
+    #app{
+      background: blanchedalmond;
+      overflow: hidden;
+      padding: 15px 24px;
+      position: relative;
+      margin-bottom: 100px;
+    }
+  .productList{
+      width: 450px;
+      height: 150px;
+      display: inline-block;
+      background: white;
+  }
+  #chen{
+      float: left;
+      width: 20px;
+      height: 20px;
+  }
+  .item img{
+      margin-left: 0px;
+      padding: 25px 10PX 0 0 ;
+      width: 30%;
+      height: 120px;
+      background-size: 100%;
+      float: left;
+  }
+  .desc{
+      margin: 5px 0px;
+      width: 55%;
+      overflow: hidden;
+      height: 150px;
+      float: left;
+      overflow: hidden;
+  }
+  .desc h5{
+      font-size: 12px;
+     line-height: 20px;
+  }
+  .productList h5 i {
+            width: 24px;
+            height: 10px;
+            background: url('https://img11.360buyimg.com/jdphoto/s68x28_jfs/t24730/322/2165679440/954/fe3afa05/5bc45b9aNb1315ac0.png');
+            background-size: 100%;
+            display: inline-block;
+        }
+  .desc .danj{
+      color: red;
+      font-size: 14px;
+      margin-right: 80px;
+  }
+  .desc .danj::before{
+      content: "￥";
+  }
+  .danj{
+      position: relative;
+      top: -5px;
+  }
+  .quantity-minus,.quantity,.quantity-plus{
+      position: relative;
+      top: -5px;
+      text-align: center;
+      width: 30px;
+      height: 20px;
+      display: inline-block;
+      background: gainsboro;
+  }
+  .desc .xiaoji{
+      width: 150px;
+      display: inline-block;
+      position: relative;
+      top:5px;
+      color: red;
+  }
+  .desc .btn{
+    position: relative;
+      top:5px;
+     right: -38px;
+     background: red;
+  }
+   .logo .bb{
+       margin-top: -5px;
+       width: 150px;
+       height: 40px;
+       margin-left: 160px;
+       font-size: 25px;
+       display: inline-block;
+       color: red;    
+  }
+.toubu{
+    width: 450px;
+    height: 30px;
+   margin: 5px 0 ;
+    background:gainsboro;
+    display: inline-block;
+   padding-top: 8px;
+
+}
+ .toubu #quanxuan{
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;  
+ }
+ .shengpi{
+     position: relative;
+        left:200px ;
+       width: 180px;
+     overflow: hidden;
+      display: inline-block;
+    
+ }
+ .footer{
+     position: fixed;
+     bottom: 0;
+    width: 500px;
+    height: 35px;
+    margin-left: -23px;
+    background:wheat;
+    display: inline-block;
+   padding-top: 8px;
+ }
+ .btnsc{
+     width: 100px;height: 30px;
+     color: white;
+     margin-left: 20px;
+     background: #337ab7;
+ }
+ /* .zongji{
+     position: relative;
+   left:230px;
+    height: 25px;
+     color: rgb(129, 59, 59);
+     margin-left: 20px;
+     background: gray;
+ } */
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="toubuxl">
+        <div class="logo">
+        <a class="bb">我的购物车</a>
+    </div>
+        <div class="toubu" ><div class="shengpi">全部商品:7</div></div>
+    </div>
+       <div class="productList"  v-for="poop in products" :key="poop.id">
+          <div class="item">
+            <input type="checkbox" name="" id="chen" v-model="poop.checked" >
+          <img :src="poop.thumb">
+         </div>
+           <div class="desc">
+                <h5><i v-if="poop.isDouble11"></i>{{poop.title}}</h5>
+                <span class="danj">{{poop.price}}</span>   
+                <span class="quantity-minus" @click="add(poop)">-</span>
+                <span class="quantity">{{poop.quantity}}</span>
+                <span class="quantity-plus" @click="poop.quantity++">+</span>
+                <div class="xiaoji">小计:{{poop.price*poop.quantity}}</div><button type="button" class="btn" @click="romove(poop)" >删除</button>
+                <!-- <div   class="zongji">总共计:222{{totla}}</div> -->
+            </div>
+           
+       </div> 
+       <div class="footer">
+            <button class="btnsc" @click="romovearr">选中删除</button>
+            <!-- <button   class="zongji total">总共计:{{total}}元</button> -->
+    </div> 
+
+       
+    </div>
+
+    <script>
+      var app=new Vue({
+        el:'#app',
+          data:{
+              
+            products:[]
+                
+          },
+          computed:{
+            totla:function(){
+                 var totle=0;
+                 this.products.forEach(element=>{
+                    totle += element.price * element.quantity    
+                 });
+                 return totle
+             },
+              mack:function(){
+                 return this.products.filter(function(poop){
+                      return poop.checked
+                  })
+              },
+        //总数
+            
+          },
+          methods: {
+                add: function (poop) {
+                    if (poop.quantity > 1) {
+                        poop.quantity--
+                    }
+                },
+                romove: function (poop) {
+                    // console.log('item', item)
+                    this.products.splice(this.products.indexOf(poop), 1)
+                },
+               //删除
+                romovearr: function () {
+                    this.mack.forEach(element => {
+                        this.romove(element)
+                    });
+                }
+          },
+          created: function () {
+                axios.get('ji.json')
+                    .then((response) => {
+                        // console.log(response.data.products);
+                        this.products = response.data.products
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            }
+               
+      })
+    </script>
+    
+</body>
+</html>

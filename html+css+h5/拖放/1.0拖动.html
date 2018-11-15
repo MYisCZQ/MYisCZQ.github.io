@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box" ondragover=dragover(event) ondrop=drop(event)>
+        <img src="img/304750.jpg" draggable="true" id="pig" ondragstart=drag(event)>
+    </div>
+    <div class="box" ondrop=drop(event) ondragover=dragover(event)></div>
+    <div class="box" ondrop=drop(event) ondragover=dragover(event)></div>
+    <div class="box" ondrop=drop(event) ondragover=dragover(event)></div>
+    <style>
+      .box img{
+          width: 100px;
+          height: 100px;
+          background-size: cover;
+      }
+      .box{
+          width: 100px;
+          height: 100px;
+          border: 2px solid red;
+          padding: 50px;
+          margin: 60px;
+          float: left;
+          background: gray;
+      }
+    </style>
+    <script>
+     function drag(ev){
+         ev.dataTransfer.setData("Text",ev.target.id);
+     }
+     function dragover(event){
+        event.preventDefault();
+     }
+     function drop(ev){
+         ev.preventDefault();
+         var data=ev.dataTransfer.getData("Text");
+         ev.target.appendChild(document.getElementById(data));
+     }
+    </script>
+</body>
+</html>

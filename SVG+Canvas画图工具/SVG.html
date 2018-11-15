@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+     .a1{
+         position: relative;
+         top:50px;
+         left: 50px;
+       /* background: blue; */
+     } 
+     .a5{
+        position: relative;
+         top:50px;
+         left: 50px;
+     }
+     .a6{
+        position: relative;
+         top:70px;
+         left: 100px;
+     }
+     .svg2{
+				position: relative;
+				top:120px;
+				left:50px;
+			}
+			.svg2 circle{
+				    stroke:orange;
+				    stroke-width: 5px;
+				    fill:white;
+            }
+        .a7{
+            position: relative;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <svg class="a1">
+            <rect  width="100" height="50" style="fill:red;stroke-width:1;stroke:rgb(0,0,0)"x/>
+    </svg>
+    <svg class="a2" >
+        <ellipse cx="80" cy="80" rx="50" ry="30" style="fill:red;stroke:black;stroke-width:2" />
+      </svg>
+      <svg>
+			<line x1='10' y1='30' x2='100' y2='100'
+				style='stroke: red; ' stroke-width="5">
+			</line>
+			<line x1='100' y1='30' x2='10' y2='100'
+				style='stroke: red;' stroke-width="5">
+			</line>
+		</svg>
+
+    <svg class="a4">
+        <polygon points="50,40 20,110 100,60 10,60 80,110"
+        style="fill:red;stroke:black;stroke-width:2;fill-rule:nonzero;" />
+      </svg><br>
+      	<svg class="a5" width="300px" height="100px">
+            <rect x="0" y="0" width="300" height="100" stroke="red" stroke-width="1" style="fill:black" />
+			<circle cx="0" cy="0" r="15" fill="blue" style="fill:red">      
+				<animateMotion path="M 250,80 H 50 Q 30,80 30,50 Q 30,20 50,20 H 250 Q 280,20,280,50 Q 280,80,250,80Z" dur="3s" repeatCount="indefinite" rotate="auto">
+			</circle>
+        </svg>
+     <svg class="a6">
+        <rect x="50" y="50" width="5" height="20" fill=" red" >              
+                <animateMotion attributeName="transform" type="translate"values="0 0; 0 20; 0 0" begin="0" dur="0.5s" repeatCount="indefinite" />
+           </rect>
+           <rect x="65" y="50" width="5" height="20" fill=" #000">              
+                <animateMotion attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.2s" dur="0.5s" repeatCount="indefinite" />        
+           </rect>
+           <rect x="80" y="50" width="5" height="20" fill=" blue" >       
+                <animateMotion attributeName="transform" type="translate"values="0 0; 0 20; 0 0"   begin="0.4s" dur="0.5s" repeatCount="indefinite" />         
+               </rect>
+       </svg>
+
+       
+		<svg class="svg2">			
+                <circle cx="30" cy="30" r="25"/>
+     <path d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+            C22.32,8.481,24.301,9.057,26.013,10.047z">
+             <animateTransform
+              attributeName="transform"
+              type="rotate"
+              from="0 30 30"
+              to="360 30 30"
+              dur="0.5s"
+              repeatCount="indefinite"/>
+            </path>
+                </svg>
+        
+		<svg class="a7" width="300px" height="100px">
+			<rect x="0" y="0" width="300" height="100" stroke="black" stroke-width="1" />
+			<circle cx="0" cy="50" r="15" fill="blue" stroke="black" stroke-width="1">
+				<animateMotion path="M 0 0 q 100 -50 300 0" dur="3s" repeatCount="indefinite" />
+			</circle>
+        </svg>
+
+</body>
+</html>

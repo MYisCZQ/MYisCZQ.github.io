@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      .e{
+        width: 200px;
+				display: block;
+				background:orange;
+				height: 80px;
+				text-align: center;
+				color: white;
+				text-decoration: none;
+				position: relative;
+				margin: 0 auto;
+
+
+			}
+			.e span{
+				z-index: 2;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				line-height: 80px;
+
+			}
+			.e:after{
+                width: 100%;
+				height: 100%;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				content: '';
+				background: green;
+				transition: all .3s;
+
+			}
+			.e:hover:after {
+				transform: rotateX(90deg);
+				-webkit-transform: rotateX(90deg);
+				}
+
+
+    </style>
+</head>
+<body>
+    <div class="e">
+        <span>
+        Read More
+        </span>
+      </div>
+</body>
+</html>

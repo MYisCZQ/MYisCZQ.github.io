@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="list">
+    <li class="item">列表项1</li>
+    <li class="item">列表项2</li>
+    <li class="item">列表项3</li>
+    <li class="item">列表项4</li>
+    <li class="item">列表项5</li>
+</ul>
+<style>
+    ul#list {
+        width: 200px;
+        margin: 20px;
+        padding: 0;
+        list-style: none;
+        border: 1px solid lightblue;
+    }
+
+    ul#list li.item {
+        background: lightblue;
+        color: white;
+        text-align: center;
+        line-height: 36px;
+        margin: 5px;
+        border: 1px dashed transparent;
+
+        /*animation-name: scale;*/
+        animation-duration: .5s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes scale {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+</style>
+<script>
+    var items = document.querySelectorAll('ul#list li.item');
+    var dragElement;
+
+    for (var i = 0; i < items.length; i++) {
+        items[i].draggable = true;
+
+        items[i].ondragstart = function (ev) {
+            dragElement = this;
+            dragElement.style.background = 'lightgreen';
+        };
+
+        items[i].ondragenter = function (ev) {
+            this.style.border = '1px dashed red';
+            ev.preventDefault();
+        };
+
+        items[i].ondragleave = function (ev) {
+            this.style.border = '1px dashed transparent';
+            ev.preventDefault();
+        };
+
+        items[i].ondrop = function (ev) {
+            this.parentNode.insertBefore(dragElement, this);
+            this.style.border = '1px dashed transparent';
+            dragElement.style.background = 'lightblue';
+            dragElement.style.animationName = 'scale';
+            dragElement.addEventListener('animationend', function () {
+                this.style.animationName = '';
+            })
+        }
+    }
+
+    document.ondragover = function (e) {
+        e.preventDefault();
+    };
+    document.ondrop = function (e) {
+        e.preventDefault();
+    };
+</script>
+</body>
+</html>

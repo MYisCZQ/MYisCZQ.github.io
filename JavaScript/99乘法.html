@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		span {
+			display: inline-block;
+			width: 560px;
+		}
+	</style>
+</head>
+
+<body>
+	<span>
+		<script>
+			document.write('<table border="1" bgcolor="gray">')
+			//依次打印行数
+			for (var i = 1; i <= 9; i++) {
+				document.write('<tr>')
+				//打印每一列的乘数
+				for (var j = 1; j <= i; j++) {
+					document.write('<td>' + i + '*' + j + '=' + i * j + '</td>')
+				}
+				document.write('</tr>')
+			}
+			document.write('</table>')
+		</script>
+	</span>
+	<span>
+		<script>
+			document.write('<table border="1" bgcolor="gray">')
+			//依次打印行数
+			for (var i = 9; i >= 1; i--) {
+				document.write('<tr>')
+				//打印每一行的空格数
+				for (var k = 1; k <= 9 - i; k++) {
+					document.write('<td></td>')
+				}
+				//打印每一列的乘数
+				for (var j = i; j >= 1; j--) {
+					document.write('<td>' + i + '*' + j + '=' + i * j + '</td>')
+				}
+				document.write('</tr>')
+			}
+
+			document.write('</table>')
+		</script>
+	</span>
+	<span>
+		<script>
+			document.write('<table border="1" bgcolor="cyan">')
+			//依次打印行数
+			for (var i = 9; i >= 1; i--) {
+				document.write('<tr>')
+				//打印每一列的乘数
+				for (var j = i; j >= 1; j--) {
+					document.write('<td>' + i + '*' + j + '=' + i * j + '</td>')
+				}
+				document.write('</tr>')
+			}
+			document.write('</table>')
+		</script>
+	</span>
+	<span>
+		<script>
+			document.write('<table border="1" bgcolor="cyan">')
+			//依次打印行数
+			for (var i = 1; i <= 9; i++) {
+				document.write('<tr>')
+				//打印每一行的空格数
+				for (var k = 8; k >= i; k--) {
+					document.write('<td></td>')
+				}
+				//打印每一列的乘数
+				for (var j = i; j >= 1; j--) {
+					document.write('<td>' + i + '*' + j + '=' + i * j + '</td>')
+				}
+				document.write('</tr>')
+			}
+
+			document.write('</table>')
+		</script>
+	</span>
+
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度</title>
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/jquery.js"" type="text/javascript" charset="utf-8"></script>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.searchbox{
+			width: 500px;
+			margin: 50px auto;
+		}
+		.searchbox input{
+			float: left;
+			border: 0;
+			outline: none;
+			text-align: 10px;
+		}
+		.searchbox input[type="text"]{
+			width: 398px;
+			height: 37px;
+			border: 1px solid gray;
+		}
+		.searchbox input[type="button"]{
+			width: 100px;
+			height: 39px;
+			color:#fff;
+			background-color: #38f;
+		}
+		.searchbox ul{
+			list-style: none;
+			width: 398px;
+			border: 1px solid #ddd;
+			display: none;
+		}
+		.searchbox ul li{
+			padding-left:10px;
+		}
+		.searchbox ul li.active{
+			background: #f50;
+			/*color: #fff;*/
+		}
+		.title {
+        display: block;
+        margin: 100px auto 0px;
+        width: 280px;
+        height: 130px;
+    }
+	</style>
+</head>
+<body>
+		<img src="img/bd_logo1.png" alt="" class="title" />
+	<div class="searchbox">
+		<input type="text">
+		<input type="button" value="百度一下">
+		<ul id="dropbox"></ul>
+	</div>
+	<script>
+		function sayHi(reponsedate){
+
+		}
+		$(function(){
+			$('[type="text"]').keyup(function(e){
+				if(e.keyCode==38||e.keyCode==40||e.keyCode==13)  return;
+
+				var keyword=$(this).val();  //获取输入的值
+				$.ajax({
+					url:"https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?",
+					type:"get",
+					data:{wd:keyword},
+					dataType:"jsonp",
+					jsonp:"cb",
+					success:function(reponsedate){
+						var result=reponsedate.s;
+						var dropboxel=$('#dropbox');
+						dropboxel.empty(); //清空li内容
+						for(var i in result){
+							$('<li/>').text(result[i]).appendTo(dropboxel);
+						}
+						dropboxel.show()
+
+						$('ul').css("list-style","none");
+						$('li').mouseenter(function(){
+							$(this).css('background',"#f50");  //鼠标移入样式
+
+						}).click(function(){  //点击获取列单内容
+
+							var inputs=$(this).html();
+							$('[type="text"]').val($(this).html());
+							$('#dropbox').html('');
+							//点击跳转百度网页
+							location.href="https://www.baidu.com/s?wd="+$('[type="text"]').val();
+						});
+						$("li").mouseleave(function(){  //鼠标移出样式
+							$(this).css('background','none')
+						});
+
+					},error:function(xhr,error,exception){
+						console.log(xhr)
+						console.log(error)
+						console.log(exception)
+					}
+				});
+			}).keydown(function(e){
+				var active=$('#dropbox li.active');
+				if(e.keyCode==40){ //下键
+					if(active.length==0||active.next().length==0){
+						$('#dropbox li').first().addClass('active').siblings().removeClass('active');
+					}else{
+						$(active).next().addClass('active').siblings().removeClass('active');
+					}
+					$('[type="text"]').val($('li.active').text());
+				}else if(e.keyCode==38){ //上键
+					if(active.length==0||active.prev().length==0){
+						$('#dropbox li').last().addClass('active').siblings().removeClass('active')
+					}else{
+						$(active).prev().addClass('active').siblings().removeClass('active');
+					}
+					$('[type="text"]').val($('li.active').text())
+				}else if(e.keyCode==13){ //enter 键
+					location.href="https://www.baidu.com/s?wd="+$('[type="text"]').val();
+				}
+			});
+		});
+	</script>
+</body>
+</html>

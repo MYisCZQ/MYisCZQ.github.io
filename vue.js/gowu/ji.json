@@ -1,0 +1,64 @@
+
+
+ {  
+    "products":
+   [
+    {
+        "thumb":"https://img10.360buyimg.com/n2/jfs/t1/4721/9/10248/150808/5bc9be1bE2b670a2a/7954518702f3f92d.jpg!q90.jpghttps://img12.360buyimg.com/n7/jfs/t1/4034/6/13294/292674/5bd7fc63E3845d7df/fe9c715d9d8dceba.jpg",
+      "title":"荣耀MagicBook 14英寸轻薄窄边框笔记本电脑（AMD)",
+      "isDouble11": true,
+      "price": 3999.00,
+      "quantity": 1
+    },
+    {
+      "thumb":"https://img12.360buyimg.com/mobilecms/s270x270_jfs/t21415/332/642302956/189613/778f2021/5b13cd6cN8e12d4aa.jpg!q70.dpg.webp",
+      "title":"荣耀9i 4GB+64GB 幻夜黑 移动联通电信4G全面屏手机 双卡双待",
+      "isDouble11": true,
+      "price": 4499.00,
+      "quantity": 1
+    },
+    {
+      "thumb":"https://img11.360buyimg.com/n2/jfs/t17395/261/469335852/86013/d7cdde72/5a7bbd81N25e2253c.jpg!q90.jpg",
+      "title":"Ninebot 九号电动滑板车（标准版） 成人学生迷你便",
+      "isDouble11": true,
+      "price": 1599.00,
+      "quantity": 1
+    },
+    {
+      "thumb":"https://img14.360buyimg.com/n7/jfs/t2503/297/1984445390/108957/1a139d72/568f56f4N51dbec26.jpg",
+      "title":"罗技（G）G502 炫光自适应游戏鼠标 吃鸡鼠标 绝地求生",
+      "isDouble11": false,
+      "price": 299.00,
+      "quantity": 1
+    },
+    
+    {
+      "thumb":"https://img10.360buyimg.com/mobilecms/s519x519_jfs/t18157/222/1822300674/231514/6c179af8/5ad87390N086a3c91.jpg!q70.dpg.webp",
+      "title":"荣耀Play 全网通版 6GB+64GB 4G全面屏游戏手机",
+      "isDouble11": true,
+      "price": 3199.00,
+      "quantity": 1
+    },
+    {
+      "thumb":"https://img10.360buyimg.com/cms/s80x80_jfs/t19060/31/1832155096/210067/92013703/5ad96defN143706dc.jpg",
+      "title":"雀米 oppoR11手机壳男款防摔保护套am潮男黑 骚男",
+      "isDouble11": true,
+      "price": 39.00,
+      "quantity": 1
+    },
+    {
+      "thumb":"https://img13.360buyimg.com/n2/jfs/t1/2381/33/13803/320969/5bd982b6E29d0e361/3c9cee83d62abe54.jpg!q80.webp",
+      "title":"HUAWEI WATCH 2 Pro华为新款智能手表 独立通话(eSIM)",
+      "isDouble11": true,
+      "price": 3199.00,
+      "quantity": 1
+    },
+    {
+      "thumb":"https://img14.360buyimg.com/n2/jfs/t19780/222/1897536104/310145/ffa04ad5/5add75c8N45d76e9a.jpg!q80.webp",
+      "title":"索尼（SONY） ILCE-7RM2全画幅微单相机单机身(约424",
+      "isDouble11": true,
+      "price": 9999.00,
+      "quantity": 1
+    }
+]
+ }

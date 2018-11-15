@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+     .top{
+         margin: 0 auto;
+         width: 220px;
+         height: 400px;
+         border: 2px solid gray;
+         background: orange;
+     }
+     ul{
+         position: relative;
+         left:-30px;
+     }
+     ul li{
+        list-style: none;
+        background: green;
+        width: 180px;
+       line-height: 60px;
+        margin: 15px 10px;
+        text-align: center;
+        color: white;
+     }
+    </style>
+    <div class="top">
+      <ul>
+          <li class="itm" >衣服</li>
+          <li class="itm">帽子</li>
+          <li class="itm">拖鞋</li>
+          <li class="itm">裤子</li>
+          <li class="itm">头发</li>
+      </ul>
+    </div>  
+    <script>
+      var itm=document.querySelectorAll("ul li.itm");
+      var dragElement;
+      for(var i=0;i<itm.length;i++){
+          itm[i].draggable=true;
+          console.log("拖");
+        itm[i].ondragstart=function(ev){  //拖动的元素
+            dragElement=this;
+            dragElement.style.background='blue';
+            console.log("你拖了我")
+        }
+        itm[i].ondragenter =function(ev){ //拖动的元素进入到放置目标时
+            ev.preventDefault();
+            this.style.border='1px dashed  black'
+
+        }
+       
+        itm[i].ondragleave =function(ev){ //拖动的元素移出放置目标
+            ev.preventDefault();
+            this.style.border = '2px dashed  transparent'
+        }
+        itm[i].ondragover=function(ev){  //素正在拖动到放置目标时触发
+            ev.preventDefault()
+        }
+        itm[i].drop=function(){
+            console.log("123");
+            dragElement.style.background='green';           
+        }
+        itm[i].ondrop = function (ev) {
+            this.parentNode.insertBefore(dragElement, this);
+            this.style.border = '1px dashed transparent';
+            dragElement.style.background = 'green';
+            
+        }
+
+      }
+
+    </script>
+    
+</body>
+</html>

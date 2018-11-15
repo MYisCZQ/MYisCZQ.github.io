@@ -1,0 +1,696 @@
+.top{
+				
+				background: url(../img/农业/banner.jpg);
+				background-size: cover;
+                padding-top: 15px;
+			}
+			.A{
+				margin: 0 auto;
+				overflow: hidden;
+				width: 1140px;
+				height: 60px;
+				background: rgba(0,0,0,0.41);
+			}
+			.A ul li{
+				float: left;
+				color: white;
+				line-height: 54px;
+			}
+			.A ul li:after{
+				content:'/';
+			}
+			.A ul li:last-of-type:after{
+				content:'';
+			}
+			
+			.A ul li a:hover{
+				transition: all 1s;
+				color: yellow;
+				/*transform: all 2s;*/
+				border-top: 4px solid yellow;
+				
+			}
+			.A ul li a{
+				text-decoration: none;
+				color: white;
+				margin: 15px 15px;
+			}
+			.A ul{
+				margin: 0;
+				list-style: none;
+				padding: 0;
+			}
+			.A1{
+				float: left;
+			}
+			.A2{
+				float: right;
+			}
+			.A2 form{
+				line-height: 54px;
+			}
+			.A2 input:nth-of-type(1){
+				background: rgba(0,0,0,0.41);
+				padding: 5px 10px;
+				border: 1px solid white;
+				color: white;
+				outline:none ;
+				line-height: 28px;
+			}
+			.A2 input:nth-of-type(2){
+				background: url(../img/农业/search.png);
+				width: 22px;
+				height: 22px;
+				background-position: center;
+				border: none;
+               position: relative;
+               top: 5px;
+			   right:35px;
+			   overflow: hidden;
+               
+			}
+		/* //滚动 */
+		.A3 .a:nth-of-type(1){
+			position: relative;
+			left: 600px;
+			transform: scale(0);
+			transition: all 1s;
+		}
+		.A3 .a:nth-of-type(2){
+			transform: scale(0);
+			position: relative;
+			top: 600px;
+			transition: all 1s;
+		}
+		.A3 .a:nth-of-type(3){
+			transform: scale(0);
+			position: relative;
+			 top:-600px;
+			 transition: all 1s;
+		}
+		.A3 .a:nth-of-type(4){
+			transform: scale(0);
+			position: relative;
+			left: -600px;
+			transition: all 1s;
+		}
+        .A3.vaction .a{
+			transform: scale(1);
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+			.cen h1{
+				overflow: hidden;
+				color: white;
+				font-size: 70px;
+				text-align: center;
+				border-top: 4px solid white;
+				border-bottom: 4px solid white;
+				width: 400px;
+				margin: 150px auto;
+			}
+			
+			.A3{
+				overflow: hidden;
+				width: 1140px;
+				margin: 0 auto;
+				position: relative;
+				 top: 120px;
+			}
+			.A3 .a{
+				text-align: center;
+				width:255px;
+				height: 380px;
+				background: #16A667;
+				float: left;
+				margin: 0 15px;
+				color: white;
+			}
+		
+			.A3 img{
+				width: 159px;
+				height: 159px;
+				margin: 15px;
+				border:9px solid white;
+				border-radius:50%;
+				 transition: all 1s;
+			}
+			.A3 p{
+				font-size: 14px;
+				line-height: 24px;
+			}
+			.A3 img:hover{
+			transform: rotateY(180deg);
+			
+		}
+		.B h3{
+			font-size: 36px;
+		}
+		.B{
+			margin:  0 auto;
+			width: 1140px;
+			padding-top: 200px;
+		}
+		.b{			
+			overflow: hidden;
+		}
+		.B1{
+			width: 360px;
+			float: left;		
+			transition: all 1s;
+			position: relative;
+			left: 400px;
+		}
+		.B1.care{
+			position: relative;
+			left: 0;
+		}
+		.B2{
+			width: 640px;
+	       line-height: 24px;
+	        color: #666666;
+			float: right;
+			transition: all .5s;
+			position: relative;
+			left: -400px;
+		}
+		.B2.chen{
+			position: relative;
+			left: 0;
+		}
+		
+		.C{
+		
+			background: #37353b;
+			margin: 0 auto;
+			overflow: hidden;
+			margin: 100px 0;
+			height: 600px;
+			
+		}
+		.c h2{
+			color: white;
+			font-size: 40px;
+			padding-left: 60px;
+			
+		}
+		.c{
+			margin: 0 auto;
+			width: 1260px;
+		     overflow: hidden;
+			padding-top: 60px;
+			padding-left: 80px;
+			/* position: relative;
+			left: -500px;
+			transition: all .5s; */
+			/* top:250px; */
+			/* transform: scale(0.5); */
+		}
+		.c1{
+			overflow: hidden;
+			width: 380px;
+			float: left;
+			text-align: center;
+			color: white;	
+			margin-left: 20px;
+		}
+		.c1:nth-of-type(1){
+			position: relative;
+			left: -500px;
+			transition: all 1s;
+		}
+		.c1:nth-of-type(2){
+			position: relative;
+			top: 400px;
+			transition: all 1s;
+		}
+		.c1:nth-of-type(3){
+			position: relative;
+			left: 500px;
+			transition: all 1s;
+		}
+		.c.Dolor .c1{
+			position: relative;
+			left: 0px;
+			top: 0;
+		}
+		.c1 img{
+			padding: 8px 16px;
+			background: #16A667;
+			border-radius: 10px;	
+		}
+		
+		.c1 img:hover{
+			background: yellow;
+		}
+		.D{
+			background: #eee;
+			position: relative;
+		
+		}
+		.OLW{
+			width: 1140PX;
+			margin: 0 auto;
+			font-size: 40px;
+		}
+		.d{
+			width: 1140px;
+			margin: 0 auto;
+			overflow: hidden;
+			/* position: relative;
+			left: 500px;
+			top: 300px;
+			transition: all 1s;
+			transform: scale(0.5); */	
+		}
+		.D .d1:nth-of-type(1){
+			position: relative;
+			left: -400px;
+			transition: all 1.6s;
+			transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(2){
+			position: relative;
+			   top: -400px;
+			   transition: all 1.6s;
+			   transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(3){
+			position: relative;
+			top: -400px;
+			transition: all 1.6s;
+			transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(4){
+			position: relative;
+			left: 400px;
+			transition: all 1.6s;
+			transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(5){
+			position: relative;
+			left: -400px;
+			transition: all 1.6s;
+			transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(6){
+			position: relative;
+			   top: 400px;
+			   transition: all 1.6s;
+			   transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(7){
+			position: relative;
+			top: 400px;
+			transition: all 1.6s;
+			transform: scale(0.2);
+		}
+		.D .d1:nth-of-type(8){
+			position: relative;
+			left: 400px;
+			transition: all 1.6s;
+			transform: scale(0.2);
+		}
+		.D.our .d1{
+		position: relative;
+		left: 0;
+		top: 0;
+		transform: scale(1);
+		}
+       .d1{
+		width: 285px;
+		height: 244px;
+		float: left;
+		position: relative;
+		
+	   }
+       .d1 img{
+		width: 285px;
+		height: 244px;
+	   }
+	   .d1 .texbox img{
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		padding: 92px 113px;
+		transform: scale(0);
+		transition: all .8s;
+	   }
+    .d1:hover .texbox img{
+		transform: scale(1);
+		box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+        background: rgba(15, 16, 15, 0.16);
+
+	}
+		.E h2{
+			padding-left: 20px;
+			padding-bottom: 20px;
+		  font-size: 36px;
+		}
+		.E{
+			width: 1140px;
+			margin: 0 auto;
+			padding-top: 100px;
+		
+		}
+		.E1:nth-of-type(1){
+			position: relative;
+			left: 600px;
+			transition: all 1s;
+			transform: scale(0.5)
+		}
+		.E1:nth-of-type(2){
+			position: relative;
+			top: -300px;
+			transition: all 1s;
+			transform: scale(0.5)
+		}
+		.E1:nth-of-type(3){
+			position: relative;
+			left: -600px;
+			transition: all 1s;
+			transform: scale(0.5)
+		}
+		.e1.lates .E1{
+		   position: relative;
+		   left: 0;
+		   top: 0;
+		   transform: scale(1)
+		}
+		.E1 img{
+			width: 350px;
+			height: 246px;
+		}
+		 .E1{
+		 	width: 380px;			
+			float: left;
+			text-align: center;
+		}
+		.E1 p{
+			margin-bottom:16px;
+			line-height:20px ;
+			color: #999;
+			font-family: 'Open Sans', sans-serif;
+			text-align: left;
+			padding-left: 10px;
+		}
+		.E1 h4{
+			text-align: left;
+			padding-left: 10px;
+		}
+            .e{
+				width: 120px;
+				display: inblock;
+				background:orange;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				color: white;
+				position: relative;	
+			}
+			.e span{
+				z-index: 2;
+				width: 120px;
+				height: 50px;
+				display: inline-block;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			.e:after{
+				content: '';
+				width: 100%;
+				height: 100%;
+				display: block;
+				position: absolute;
+				top:0;
+				left: 0;
+                background: #16A667;
+			}
+			.e:hover:after {
+				transition: all .5s;
+				transform: rotateX(90deg);
+				}
+
+				.one{
+					background: #3f454d;
+					margin-top: 620px;
+					
+				}
+				.two{
+					width: 1140px;
+					margin: 0 auto;
+					height: 420px;
+				}
+				.one1{
+					width: 350px;
+					height: 400px;
+					overflow: hidden;
+					float: left;
+					position: relative;
+					left: -500PX;
+				}
+				.one1.upcome{
+					position: relative;
+					left: 0;
+					transition: all .5s; 
+				}
+				.one2.Categ{
+					position: relative;
+					top: 0; 
+					transition: all .5s; 
+				}
+				.one3.Contact{
+					position: relative;
+					left: 0; 
+					transition: all .5s; 
+				}
+				.one1 h3{
+					color: white;
+					font-size: 40px;
+				    margin-bottom: 16px;
+				    font-family: 'Josefin Sans', sans-serif;
+                     font-weight: 600;
+				}
+				.one2 h3{
+					color: white;
+					font-size: 40px;
+					 margin-bottom: 16px;
+				    font-family: 'Josefin Sans', sans-serif;
+                     font-weight: 600;
+                     margin-left:40px ;
+					
+				}
+				.one2{
+					width: 350px;
+					height: 400px;
+					float: left;
+					margin:0px 15px;
+					position: relative;
+					top: 400PX;
+				}
+				.one3{
+					width: 350px;
+					height: 400px;
+					float: left;
+					padding-left: 40px;
+					position: relative;
+					left: 500PX;
+					/*margin:0px 15px;*/
+				}
+				.up1{
+					overflow: hidden;
+					width: 350px;
+					height: 75px;
+					padding: 10px;
+					
+				}
+				.one3 h3{
+					color: white;
+					font-size: 40px;
+					 margin-bottom: 16px;
+				    font-family: 'Josefin Sans', sans-serif;
+                     font-weight: 600;
+                     margin-left:40px ;
+					
+				}
+				.upimg img{
+					width: 73px;
+					height: 73px;
+					float: left;
+				}
+				.uptext{
+					margin-bottom: 10px;
+					width: 265px; 
+					height: 74px;
+					float: left;
+				   margin-left: 10px;					
+				}
+				.uptext a{
+                   color: #fff;
+                 margin-bottom: 2px;
+               text-decoration: none;
+				}
+				.uptext p{
+					line-height:20px;
+                         color: #999;
+				}
+				.uptext a:hover{
+					color: yellow;
+				}
+				.one2 ul li{
+					line-height: 34px;
+					color: #999;
+                  list-style: none;
+                  padding-left: 25px;
+                  background: url(../img/农业/list-arrow.png) no-repeat 6px 14px;
+                
+				}
+				.one2 ul li:hover{
+					color: yellow;
+				}
+				.one3 ul{
+					padding-left: 30px;
+					line-height: 24px;
+				}
+				.one3 ul li.a{
+					width: 40px;
+					height: 40px;
+					display: inline-block;
+					background: url(../img/农业/img-sprite1.png) -220px 0px;
+				}
+				.one3 ul li.b{
+					width: 40px;
+					height: 40px;
+					display: inline-block;
+					background: url(../img/农业/img-sprite1.png) -261px 0px;
+				}
+				.one3 ul li.ab{
+					width: 40px;
+					height: 40px;
+					display: inline-block;
+					background: url(../img/农业/img-sprite1.png) -302px 0px;
+				}
+				.one3 ul li{
+					padding-top: 4px;
+					padding-left: 2px;
+					list-style: none;
+					color: #999;
+					font-size: 14px;
+					line-height: 14px;
+					display: inline-block;
+				}
+				.didu{
+					
+					background: red;
+				}
+				.didu1{
+					width: 1140px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				.didu1 span i{
+					width: 55px;
+					height: 55px;
+					background:url(../img/农业/img-sprite1.png);
+					background-repeat: no-repeat;
+				}
+				.didu1 span:nth-of-type(1) i{
+					background:url(../img/农业/img-sprite1.png) 5px 0px ;
+					
+				}
+				
+		
+			.zu{
+				width: 1140px;
+				height: 60px;
+				margin: 0 auto;
+				text-align: center;
+				margin-top: 30px;
+				
+			}
+			.zu i{
+				width: 55px;
+				height: 55px;
+				background:url(../img/农业/img-sprite1.png) ;
+				background-repeat: no-repeat;
+				display:inline-block;
+				margin: 2px 10px ;				
+			}
+			.zu i:hover{
+				    opacity: 0.6;
+				    
+			}
+			i:nth-of-type(1){
+				background-position: 0px 0px;
+			}
+			i:nth-of-type(2){
+				background-position: -55px 0px;
+			}
+			i:nth-of-type(3){
+				background-position: -110px 0px;
+			}
+			i:nth-of-type(4){
+				background-position: -165px 0px;
+			}
+			.dzb{
+				height: 55px;
+				width: 1140px;
+				margin: 0 auto;
+				position: relative;
+				left: -600px;
+				transition: all .7s; 	
+			}
+			.dzb.aabout{
+				position: relative;
+				left: 0;
+			}
+			.dzb ul {
+				text-align: center;
+			}
+			.dzb ul li a{
+				list-style-type: none;
+				text-decoration: none;
+				width: 32px;
+				height: 16px;
+				color: black;
+				cursor:pointer
+				
+			}
+			.dzb ul li {
+				margin: 10px;
+				text-decoration: none;				
+				display:inline-block;
+				font-size: 16px;
+				
+			}
+			.zzdd{
+				width:1140px ;
+				margin: 0 auto;
+				margin-top: 15px;
+				position: relative;
+				left: 600px;
+				transition: all .7s; 
+			}
+			.zzdd.cop{
+				position: relative;
+				left: 0;
+			}
+			.zzdd p{
+				text-align: center;
+				font-size: 16px;
+			}
+			.zzdd a{
+				 text-decoration: none;	
+				 color: yellowgreen; 
+				 font-size: 19px;
+			}
+			.zzdd a:hover{
+				font-size: 19px;
+               color: #000;
+              font-weight: 400;
+              text-decoration: underline;
+			}
