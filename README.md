@@ -16,7 +16,7 @@
   <p>9.<a href="http://MyisCZQ.github.io/html+css+h5/3.0.html">花朵动画转圈圈</a></p>
   <p>10.<a href="http://MyisCZQ.github.io/html+css+h5/4.0.html">草原女孩</a></p>
   <hr>
-  <h2>二.Less</h2>
+  <h3>二.Less写法</h3>
   <p>1.<a href="http://MyisCZQ.github.io/less/3D立体翻转/fanzhuan.html">3D立体翻转</a></p>
   <hr>
   <h2>三.SVG+Canvas画图工具</h2>
