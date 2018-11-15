@@ -37,6 +37,7 @@
   <p>2.<a href="http://MyisCZQ.github.io/jQuery/选项卡/1.0.html">选项卡</a></p>
   <p>3.<a href="http://MyisCZQ.github.io/jQuery/JQ轮播图/5.2.轮播图.html">轮播图</a></p>
   <p>4.<a href="http://MyisCZQ.github.io/jQuery/美女放大镜/2.1放大.html">美女放大镜</a></p
+   <hr>
  <h2>六.AJAX</h2>
   <p>1.<a href="http://MyisCZQ.github.io/AJAX/JS美女图片/meinv.html">JS美女图片</a></p>
   <p>2.<a href="http://MyisCZQ.github.io/AJAX/仿百度/axaj百度.html">仿百度</a></p>
@@ -45,7 +46,7 @@
   <h2>七.Bootstrap</h2>
   <p>1.<a href="http://MyisCZQ.github.io/Bootstrap/lsjxh/noye.html">绿色机械化网站</a></p>
   <hr>
-  <h2>八.vue.js</h2>
+  <h3>八.vue.js</h3>
   <p>1.<a href="http://MyisCZQ.github.io/vue.js/gowu/jingdo购物车.html">购物车</a></p>
   
   
