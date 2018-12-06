@@ -24,9 +24,10 @@
   <p>1.<a href="http://MyisCZQ.github.io/JavaScript/99乘法.html">99乘法</a></p>
   <p>2.<a href="http://MyisCZQ.github.io/JavaScript/JS小球转动/01.html">小球转动</a></p>
   <p>3.<a href="https://myisczq.github.io/aa/aa/01xx.html">消息弹框</a></p>
-  <p>3.<a href="http://MyisCZQ.github.io/JavaScript/双十一大抽奖/dazhuapan.html">双十一大抽奖</a></p>
-  <p>4.<a href="http://MyisCZQ.github.io/JavaScript/键盘/0.html">键盘小球转动</a></p>
-  <p>4.<a href="http://MyisCZQ.github.io/JavaScript/微信飞机大战/feiji.html">微信飞机大战</a></p>
+  <p>4.<a href="http://MyisCZQ.github.io/JavaScript/双十一大抽奖/dazhuapan.html">双十一大抽奖</a></p>
+  <p>5.<a href="https://myisczq.github.io/aa/aa/xiaoqiu.html">碰撞</a></p>
+  <p>6.<a href="http://MyisCZQ.github.io/JavaScript/键盘/0.html">键盘小球转动</a></p>
+  <p>7.<a href="http://MyisCZQ.github.io/JavaScript/微信飞机大战/feiji.html">微信飞机大战</a></p>
    <hr>
   <h3>四.jQuery</h3>
   <p>1.<a href="http://MyisCZQ.github.io/jQuery/摩托车奔跑/4.1.html">摩托车奔跑</a></p>
@@ -49,7 +50,8 @@
   <p>1.<a href="http://MyisCZQ.github.io/Bootstrap/lsjxh/noye.html">绿色机械化网站Bootstrap</a></p>
   <hr>
   <h3>八.vue.js</h3>
-  <p>1.<a href="http://MyisCZQ.github.io/vue.js/gowu/jingdo购物车.html">购物车</a></p>
+  <p>1.<a href="https://myisczq.github.io/aa/vue/%E9%80%89%E9%A1%B9%E5%8D%A101.html">选项卡</a></p>
+  <p>2.<a href="http://MyisCZQ.github.io/vue.js/gowu/jingdo购物车.html">小购物车</a></p>
   
   
   
