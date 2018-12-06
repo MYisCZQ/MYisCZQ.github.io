@@ -1,8 +1,8 @@
 <h1>项目展示</h1>
 <hr>
 <h3>1.<a href="http://MyisCZQ.github.io/html+css+h5/农业/noye/index.html">外国机械化网站</a></h3>
-<h3>2.<a href="http://MyisCZQ.github.io/xm/炉石传说/lushi.html">炉石传说官网</a></h3>
-<h3>3.<a href="http://MyisCZQ.github.io/xm/微信飞机大战/feiji.html">微信小飞机游戏</a></h3>
+<h3>2.<a href="https://myisczq.github.io/aaa/cc/lushi.html">炉石传说官网</a></h3>
+<h3>3.<a href="http://MyisCZQ.github.io/xm/微信飞机大战/feiji.html">无人机大乱斗</a></h3>
 <hr>
 <h2>一.html+css</h2>
   <p>1.<a href="http://MyisCZQ.github.io/html+css+h5/农业/noye/index.html">外国机械化网站</a></p>
