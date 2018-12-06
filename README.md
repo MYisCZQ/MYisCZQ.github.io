@@ -12,7 +12,7 @@
   <p>5.<a href="http://MyisCZQ.github.io/html+css+h5/1.0.html">魔方立体转动</a></p>
   <p>6.<a href="http://MyisCZQ.github.io/html+css+h5/5.0.html">开关与选项按钮</a></p> 
   <p>7.<a href="http://MyisCZQ.github.io/html+css+h5/拖放/1.0拖动.html">图像拖动</a></p>
-  <p>8.<a href="http://MyisCZQ.github.io/html+css+h5/拖放/2.0列表项.html">拖动列表项</a></p>
+  <p>8.<a href="http://MyisCZQ.github.io/html+css+h5/拖放/2.0列表项.html">列表项拖动</a></p>
   <p>9.<a href="http://MyisCZQ.github.io/html+css+h5/2.0.html">帧跳一跳</a></p>  
   <p>10.<a href="http://MyisCZQ.github.io/html+css+h5/3.0.html">花朵动画转圈圈</a></p>
   <p>11.<a href="http://MyisCZQ.github.io/html+css+h5/4.0.html">草原女孩</a></p>
