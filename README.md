@@ -27,7 +27,7 @@
   <p>4.<a href="http://MyisCZQ.github.io/JavaScript/双十一大抽奖/dazhuapan.html">双十一大抽奖</a></p>
   <p>5.<a href="https://myisczq.github.io/aa/aa/xiaoqiu.html">碰撞</a></p>
   <p>6.<a href="http://MyisCZQ.github.io/JavaScript/键盘/0.html">键盘小球转动</a></p>
-  <p>7.<a href="http://MyisCZQ.github.io/JavaScript/微信飞机大战/feiji.html">微信飞机大战</a></p>
+  <p>7.<a href="http://MyisCZQ.github.io/JavaScript/微信飞机大战/feiji.html">无人机大乱斗</a></p>
    <hr>
   <h3>四.jQuery</h3>
   <p>1.<a href="http://MyisCZQ.github.io/jQuery/摩托车奔跑/4.1.html">摩托车奔跑</a></p>
