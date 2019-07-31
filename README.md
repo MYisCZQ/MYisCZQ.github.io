@@ -1,6 +1,6 @@
 <h1>项目展示</h1>
 <hr>
-<h3>1.<a href="https://myisczq.github.io/bost/youguan/index.html">优爱宝网站Bootstrap</a></>h3
+<h3>1.<a href="https://myisczq.github.io/bost/youguan/index.html">优爱宝网站</a></h3>
 <h3>2.<a href="http://MyisCZQ.github.io/html+css+h5/农业/noye/index.html">外国机械化网站</a></h3>
 <h3>3.<a href="https://myisczq.github.io/aaa/cc/lushi.html">炉石传说官网</a></h3>
 <h3>4.<a href="http://MyisCZQ.github.io/xm/微信飞机大战/feiji.html">无人机大乱斗</a></h3>
