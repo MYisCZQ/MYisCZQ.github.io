@@ -1,4 +1,4 @@
-<h1>小陈的项目展示</h1>
+<h1>小陈的作品展示</h1>
 <hr>
 <h3>1.<a href="https://myisczq.github.io/bost/youguan/index.html">优爱宝响应式网站</a></h3>
 <h3>2.<a href="http://MyisCZQ.github.io/html+css+h5/农业/noye/index.html">外国机械化网站</a></h3>
