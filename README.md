@@ -8,7 +8,7 @@
 <hr>
 <h2>移动端JD首页</h2>
 <h4>1.<a href="https://myisczq.github.io/JDM/jdM/index.html">移动端简单布局</a></h4>
-<h2>一.html+css</h2>
+<h2>一.html+css+js</h2>
   <p>1.<a href="http://MyisCZQ.github.io/html+css+h5/农业/noye/index.html">外国机械化网站</a></p>
   <p>2.<a href="http://MyisCZQ.github.io/xm/炉石传说/lushi.html">炉石传说官网</a></p>
   <p>3.<a href="http://MyisCZQ.github.io/html+css+h5/biaoge.html">表格制作</a></p>
