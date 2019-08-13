@@ -22,6 +22,8 @@
   <p>11.<a href="http://MyisCZQ.github.io/html+css+h5/4.0.html">草原女孩</a></p>
   <hr>
   <h3>二.HTML5+CSS3</h3><hr>
+   <p>1.<a href="https://myisczq.github.io/h5-c3/01/index.html">QQ沟通</a></p>
+   <p>2.<a href="https://myisczq.github.io/h5-c3/day5/index.html">视频播放</a></p>
   <hr>
   <h3>三.Less写法</h3>
   <p>1.<a href="http://MyisCZQ.github.io/less/3D立体翻转/fanzhuan.html">3D立体翻转</a></p>
