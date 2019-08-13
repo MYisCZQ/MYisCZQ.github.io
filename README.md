@@ -24,6 +24,10 @@
   <h3>二.HTML5+CSS3</h3><hr>
    <p>1.<a href="https://myisczq.github.io/h5-c3/01/index.html">QQ沟通</a></p>
    <p>2.<a href="https://myisczq.github.io/h5-c3/day5/index.html">视频播放</a></p>
+    <p>3.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG.html">SVG移动</a></p>
+  <p>4.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG2.html">SVG进度条</a></p>
+  <p>5.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/canvas jqr.html">Canvas机器人</a></p>
+  <p>6.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/canvas sz.html">Canvas时钟</a></p>
   <hr>
   <h3>三.Less写法</h3>
   <p>1.<a href="http://MyisCZQ.github.io/less/3D立体翻转/fanzhuan.html">3D立体翻转</a></p>
@@ -43,22 +47,17 @@
   <p>3.<a href="http://MyisCZQ.github.io/jQuery/JQ轮播图/5.2.轮播图.html">轮播图</a></p>
   <p>4.<a href="http://MyisCZQ.github.io/jQuery/美女放大镜/2.1放大.html">美女放大镜</a></p
    <hr>
-  <h3>六.SVG+Canvas画图工具</h3>
-  <p>1.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG.html">SVG移动</a></p>
-  <p>2.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG2.html">SVG进度条</a></p>
-  <p>3.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/canvas jqr.html">Canvas机器人</a></p>
-  <p>4.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/canvas sz.html">Canvas时钟</a></p>
- <hr>
- <h3>七.AJAX</h3>
+
+ <h3>六.AJAX</h3>
   <p>1.<a href="http://MyisCZQ.github.io/AJAX/JS美女图片/meinv.html">JS美女图片</a></p>
   <p>2.<a href="http://MyisCZQ.github.io/AJAX/仿百度/axaj百度.html">仿百度</a></p>
   <p>3.<a href="http://MyisCZQ.github.io/AJAX/7.瀑布流.html">瀑布流</a></p>
   <hr>
-  <h3>八.Bootstrap</h3>
+  <h3>七.Bootstrap</h3>
   <p>1.<a href="https://myisczq.github.io/bost/youguan/index.html">优爱宝网站Bootstrap</a></p>
   <p>2.<a href="https://myisczq.github.io/bost/meiyu/index.html">美誉网站</a></p>
   <hr>
-  <h3>九.vue.js</h3>
+  <h3>八.vue.js</h3>
   <p>1.<a href="https://myisczq.github.io/aa/vue/%E9%80%89%E9%A1%B9%E5%8D%A101.html">选项卡</a></p>
   <p>2.<a href="http://MyisCZQ.github.io/vue.js/gowu/jingdo购物车.html">小购物车</a></p>
   
