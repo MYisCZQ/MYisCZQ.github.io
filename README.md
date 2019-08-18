@@ -24,7 +24,7 @@
   <h3>二.HTML5+CSS3</h3><hr>
    <p>1.<a href="https://myisczq.github.io/h5-c3/01/index.html">QQ沟通</a></p>
    <p>2.<a href="https://myisczq.github.io/h5-c3/day5/index.html">视频播放</a></p>
-    <p>3.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG.html">SVG移动</a></p>
+   <p>3.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG.html">SVG移动</a></p>
   <p>4.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/SVG2.html">SVG进度条</a></p>
   <p>5.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/canvas jqr.html">Canvas机器人</a></p>
   <p>6.<a href="http://MyisCZQ.github.io/SVG+Canvas画图工具/canvas sz.html">Canvas时钟</a></p>
@@ -45,7 +45,7 @@
   <p>1.<a href="http://MyisCZQ.github.io/jQuery/摩托车奔跑/4.1.html">摩托车奔跑</a></p>
   <p>2.<a href="http://MyisCZQ.github.io/jQuery/选项卡/1.0.html">选项卡</a></p>
   <p>3.<a href="http://MyisCZQ.github.io/jQuery/JQ轮播图/5.2.轮播图.html">轮播图</a></p>
-  <p>4.<a href="http://MyisCZQ.github.io/jQuery/美女放大镜/2.1放大.html">美女放大镜</a></p
+  <p>4.<a href="http://MyisCZQ.github.io/jQuery/美女放大镜/2.1放大.html">美女放大镜</a></p>
    <hr>
 
  <h3>六.AJAX</h3>
